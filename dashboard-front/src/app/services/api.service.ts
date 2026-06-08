@@ -21,7 +21,7 @@ import {
 
 @Injectable({ providedIn: 'root' })
 export class ApiService {
-  private readonly base = 'http://127.0.0.1:8081';
+  private readonly base = 'https://api.foudz.store';
 
   constructor(private http: HttpClient) { }
 

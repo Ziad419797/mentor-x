@@ -3,7 +3,7 @@ import { inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { BehaviorSubject, Observable, catchError, filter, switchMap, take, throwError } from 'rxjs';
 
-const API_BASE = 'http://127.0.0.1:8081';
+const API_BASE = 'https://api.foudz.store';
 const TOKEN_KEY = 'accessToken';
 const REFRESH_KEY = 'refreshToken';
 

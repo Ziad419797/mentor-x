@@ -6,7 +6,7 @@ import { ApiService } from '../../services/api.service';
 import { Center } from '../../models/models';
 import { ToastrService } from 'ngx-toastr';
 
-const API = 'http://localhost:8081';
+const API = 'https://api.foudz.store';
 
 @Component({
   selector: 'app-centers',
